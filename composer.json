@@ -1,0 +1,18 @@
+{
+    "name": "parov/framework",
+    "autoload": {
+        "psr-4": {
+            "App\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danil",
+            "email": "parovark@mail.ru"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "ext-pdo": "*"
+    }
+}
